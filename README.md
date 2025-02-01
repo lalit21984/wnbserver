@@ -165,8 +165,4 @@ To clean up the infrastructure and remove all the AWS resources:
 
 If you find any issues or have improvements to suggest, feel free to open an issue or submit a pull request. Contributions are welcome!
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
