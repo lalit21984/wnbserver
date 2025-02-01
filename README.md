@@ -30,7 +30,6 @@ Before you begin, ensure you have the following tools installed:
 │   ├── main.tf            # Terraform main file for AWS setup
 │   ├── variables.tf       # Terraform variables
 │   ├── terraform.tfvars   # Terraform Variables
-│   ├── outputs.tf         # Outputs from Terraform
 │   └── providers.tf       # AWS provider configuration
 └── README.md              # This readme file
 ```
@@ -59,7 +58,7 @@ cd terraform
 Step 2: Install Terraform
 Make sure Terraform is installed on your system. You can find installation instructions here.
 
-Step 3: Creat terraform file structure with main.tf, terraform.tfvars, variables.tf, versions.tf file
+Step 3: Create terraform file structure with main.tf, terraform.tfvars, variables.tf, versions.tf.
 
 Step 4: Set Up AWS Credentials
 
@@ -119,7 +118,7 @@ This will deploy the WandB server into your EKS cluster.
 
 Step 7: Access WandB Server
 
-Once the deployment is complete, you can access the WandB server using the Route53 public url IP created by the terraform. You can get the URL with the output variable in terraform cli.
+Once the deployment is complete, you can access the WandB server using the Route53 public url IP created by the terraform i.e www.wnb.lalitkumarsahu.com. You can get the URL with the output variable in terraform cli.
 
 
 Step 8: Login to the WandB Server
